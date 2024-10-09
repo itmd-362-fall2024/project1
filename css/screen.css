@@ -2,4 +2,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: 'Titan One', 'Concert One', sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 2em;
+}
+
+.content {
+  font-family: 'Work One', 'Open Sans', sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(72, 72, 72, 0.1);
 }
