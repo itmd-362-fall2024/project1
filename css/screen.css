@@ -84,7 +84,7 @@ input[value='Sign Up Now']:hover {
   transition: all 0.3s ease;
 }
 
-input[type="name"], input[type="tel"], input[type="email"], input[type="password"] {
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
   padding-left: 10px;
 }
 
