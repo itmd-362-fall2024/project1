@@ -49,9 +49,29 @@ h3 {
 }
 
 .form_group input {
+  font-family: 'Work One', 'Open Sans', sans-serif;
   width: 90%;
   border: none;
   border-radius: 5px;
   height: 40px;
   margin-bottom: 15px;
+  
+}
+
+input[type="submit"] {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(35, 117, 240);
+  color: rgb(255, 255, 255);
+}
+
+input[value="Sign Up Now"] {
+  font-family: 'Work One', 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+input[type="name"], input[type="phone"], input[type="email"], input[type="password"] {
+  padding-left: 10px;
 }
