@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(#76A8F3, #0548AB);
   height: 100vh;
 }
 
@@ -24,7 +24,7 @@ h1 {
 }
 
 .logo {
-  color: rgb(35, 117, 240);
+  color: #2375f0;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h3 {
 h4 {
   font-size: .9em;
   padding-bottom: 15px;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #cccccc;
   padding-top: 25px;
   padding-bottom: 15px;
 }
@@ -69,8 +69,8 @@ input[type="submit"] {
   border: none;
   padding: 10px;
   border-radius: 5px;
-  background-color: rgb(35, 117, 240);
-  color: rgb(255, 255, 255);
+  background-color: #2375f0;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -80,7 +80,7 @@ input[value="Sign Up Now"] {
 }
 
 input[value='Sign Up Now']:hover {
-  background-color: rgb(24, 82, 168);
+  background-color: #1852a8;
   transition: all 0.3s ease;
 }
 
